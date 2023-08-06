@@ -1,0 +1,7 @@
+In case of C++ if we want to take the input from the user then we can simply use the getline function.
+getline() basically takes the input till it encounters a linebreak.
+Arrays are used if we want to store multiple values in a single place. It has a range of memory which is allocated. and it is contiguous.
+Each and every index of the array can store an integer. indexes for the array which we are created will start with 0.
+
+if we want to store the array in 2 dimensions the  it is also possible in the similar way the matrices are represented in a program.
+The underlying structure of the array in the memory remains the same.
