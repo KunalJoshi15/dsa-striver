@@ -5,3 +5,30 @@ Each and every index of the array can store an integer. indexes for the array wh
 
 if we want to store the array in 2 dimensions the  it is also possible in the similar way the matrices are represented in a program.
 The underlying structure of the array in the memory remains the same.
+
+Map and HashMap in java internal working:
+hashCode() -> gives us a hash value for our key
+hashing() -> provides us with the index at which we want to store the data. using the hashCode index is found using the hashfunction
+
+if there is a collision occurs then the value at the index is checked if that is null then we can simply store the data. If the key for the node that
+is already present in the location matches with the one which is currently being inserted then we need to update the information.
+If the key doesn't match then it is stored to the next location until the next is null then at last of the list we will add the new node.
+When 8 nodes are reached in the linkedlist that is being created then internally it changes to the balanced tree.
+
+How does the get operation work in hashmap. for the key that we have sent in the get operation there will be hashing operation performed.
+After performing the hashing operation we will get an index from which we have to perform our search. If the key we are searching for the
+and the key in the node matches then we return the value otherwise we go to the next node in that index.
+
+Internal working of the linkedhashmap and linkedhashset.
+linkedhashmap is the example of linkedlist and a hashmap. functionalities of the hashmap are already provided also it has some more operations as part of it.
+Map.Entry has different information as part of it stored
+Entry -> K, V, hash, next, before and after node are also there in case of the linkedhashmap.
+head and tail objects has the information regarding the first node and the last node that is present.
+
+how does the put operation and the get operation works. The way the hashmap actually works on the similar lines the linkedhashmap also works. -> hash index
+is found on basis of the key that we have provided on basis of this hash index we basically store the data which is required.
+
+the after property of the first node will be connected to the newly created node and the after property of the newly available node will point to the address of the
+previous node.
+
+The worst case time complexity for selection sort is O(n^2)
