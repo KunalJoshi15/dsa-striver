@@ -1,4 +1,4 @@
-package arrays;
+package arrays.easy;
 
 class SingleAppearance {
     public int findMaxConsecutiveOnes(int[] nums) {

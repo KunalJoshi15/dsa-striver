@@ -1,4 +1,4 @@
-package arrays;
+package arrays.easy;
 
 public class ArraySortChecker {
     public static int isSorted(int n, int []a) {
